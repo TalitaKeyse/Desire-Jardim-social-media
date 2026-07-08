@@ -61,7 +61,7 @@ export default function Header() {
                 onClick={() => scrollToSection(sec)}
                 className="text-sm font-sans text-gray-400 hover:text-brand-gold transition-colors duration-300 capitalize cursor-pointer font-medium"
               >
-                {sec === "servicos" ? "Serviços" : sec === "inicio" ? "Início" : sec}
+                {sec === "servicos" ? "Serviços" : sec === "inicio" ? "Início" : sec === "sobre" ? "Quem Sou Eu" : sec}
               </button>
             ))}
           </nav>
@@ -121,7 +121,7 @@ export default function Header() {
               onClick={() => scrollToSection(sec)}
               className="text-left text-lg font-display text-gray-300 hover:text-brand-gold transition-colors duration-300 capitalize py-2 border-b border-white/[0.03]"
             >
-              {sec === "servicos" ? "Serviços" : sec === "inicio" ? "Início" : sec}
+              {sec === "servicos" ? "Serviços" : sec === "inicio" ? "Início" : sec === "sobre" ? "Quem Sou Eu" : sec}
             </button>
           ))}
           <div className="pt-6 flex flex-col space-y-4">

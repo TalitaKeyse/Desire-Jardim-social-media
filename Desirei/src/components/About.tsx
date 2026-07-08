@@ -33,25 +33,32 @@ export default function About() {
           <div className="lg:col-span-6 space-y-8">
             <div className="space-y-3">
               <span className="text-xs uppercase font-sans font-bold tracking-[0.25em] text-brand-gold">
-                ✦ Por trás da estratégia
+                ✦ Quem sou eu
               </span>
               <h2 className="font-display font-black text-3xl sm:text-4xl lg:text-5xl text-white leading-tight">
-                Eu não crio posts. <br />
+                Desirée Jardim <br />
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-gold to-brand-gold-light italic font-serif font-normal">
-                  Crio desejo e autoridade.
+                  Social Media & Videomaker
                 </span>
               </h2>
             </div>
 
             <div className="relative border-l-2 border-brand-gold pl-6 py-1 italic font-serif text-lg sm:text-xl text-gray-300 leading-relaxed">
-              &ldquo;No mercado premium, as pessoas não compram o seu serviço porque precisam dele. Elas compram porque desejam a sua atmosfera, a sua segurança e a sua excelência. O meu papel é externalizar o seu gênio nas redes sociais.&rdquo;
+              &ldquo;Acredito que cada projeto tem uma história única, e meu objetivo é transformá-la em uma experiência visual que realmente faça a diferença.&rdquo;
               <span className="block mt-3 text-xs font-sans not-italic font-bold tracking-wider text-brand-gold uppercase">— DESIREÉ JARDIM</span>
             </div>
 
-            <p className="font-sans font-light text-gray-400 text-sm sm:text-base leading-relaxed">
-              Olá, sou a Desireé Jardim. Como estrategista de posicionamento digital e social media, dedico minha carreira a resgatar profissionais de elite da invisibilidade algorítmica. 
-              Acredito que feeds genéricos destroem negócios lucrativos todos os dias. Por isso, criei um método voltado para quem deseja ser a única opção viável no mercado de alto padrão — unindo narrativa magnética, design sofisticado e intenção comercial cirúrgica.
-            </p>
+            <div className="space-y-4 font-sans font-light text-gray-300 text-sm sm:text-base leading-relaxed">
+              <p>
+                Olá! Eu sou Desirée, social media e videomaker apaixonada por transformar ideias em conteúdos que conectam, emocionam e geram resultados.
+              </p>
+              <p>
+                Minha história com o audiovisual começou cedo. Desde os 13 anos, a curiosidade pelo universo das artes visuais despertou em mim o desejo de criar, contar histórias e enxergar o mundo por diferentes perspectivas. O que começou como um interesse se tornou minha profissão e minha maior paixão.
+              </p>
+              <p>
+                Hoje, ajudo marcas, empresas e criadores de conteúdo a fortalecerem sua presença digital por meio de estratégias para redes sociais, vídeos criativos e conteúdos que unem estética, autenticidade e propósito.
+              </p>
+            </div>
 
             <div className="flex flex-wrap gap-4 items-center pt-2">
               <div className="bg-brand-dark px-4 py-3 rounded-lg border border-white/[0.05] text-center min-w-[120px]">

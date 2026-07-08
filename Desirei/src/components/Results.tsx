@@ -138,6 +138,7 @@ export default function Results() {
                         src={fotoDesiree}
                         alt="Desireé Portrait"
                         referrerPolicy="no-referrer"
+                        loading="lazy"
                         className="w-full h-full object-cover"
                       />
                     </div>
