@@ -49,3 +49,18 @@
 .box-glow-hover:hover {
   box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(207, 168, 100, 0.15);
 }
+
+/* Safari and iOS optimization rules */
+html, body {
+  -webkit-overflow-scrolling: touch;
+}
+
+.backdrop-blur-md {
+  -webkit-backdrop-filter: blur(12px) !important;
+  backdrop-filter: blur(12px) !important;
+}
+
+.backdrop-blur-xl {
+  -webkit-backdrop-filter: blur(24px) !important;
+  backdrop-filter: blur(24px) !important;
+}

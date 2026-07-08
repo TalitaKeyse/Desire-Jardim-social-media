@@ -108,7 +108,7 @@ export default function Header() {
 
       {/* Mobile Drawer */}
       <div
-        className={`md:hidden fixed inset-0 top-[65px] bg-brand-dark/95 backdrop-blur-xl z-40 transition-all duration-300 border-t border-white/[0.06] ${
+        className={`md:hidden fixed inset-0 top-[65px] bg-brand-dark z-40 transition-all duration-300 border-t border-white/[0.06] ${
           isOpen
             ? "translate-x-0 opacity-100 pointer-events-auto visible"
             : "translate-x-full opacity-0 pointer-events-none invisible"
