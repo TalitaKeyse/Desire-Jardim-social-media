@@ -21,7 +21,7 @@ export default function Footer() {
                 DESIREÉ JARDIM
               </span>
               <span className="text-[9px] font-sans uppercase tracking-[0.25em] text-brand-gold font-medium mt-0.5">
-                Social Media Premium
+                Social Media & Videomaker Premium
               </span>
             </div>
             <p className="font-sans font-light text-xs sm:text-sm text-gray-400 max-w-sm leading-relaxed">

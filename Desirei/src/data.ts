@@ -36,6 +36,18 @@ export const SERVICES: Service[] = [
       "Identidade visual de Stories e destaques inesquecíveis",
       "Guia de estética para fotos, ensaio profissional e cenários"
     ]
+  },
+  {
+    id: "videomaker",
+    title: "Direção Audiovisual & Videomaker",
+    description: "Captação de imagem de alto padrão estético, edição cinematográfica, direção de cena personalizada e criação de Reels magnéticos que prendem a atenção e geram desejo imediato.",
+    icon: "Video",
+    details: [
+      "Equipamentos e captação de imagem profissional (com atendimento presencial / Brasília-DF)",
+      "Roteirização cinematográfica estruturada com ganchos de retenção e chamadas para ação",
+      "Edição dinâmica premium, color grading sofisticado, efeitos visuais sutis e sound design de impacto",
+      "Direção de presença de vídeo para destravar sua comunicação de forma confiante, natural e elegante"
+    ]
   }
 ];
 

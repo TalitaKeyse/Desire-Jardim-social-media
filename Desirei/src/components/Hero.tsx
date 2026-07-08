@@ -126,7 +126,7 @@ export default function Hero() {
               <div className="absolute bottom-6 left-6 right-6 bg-brand-dark-card/90 backdrop-blur-md border border-white/[0.08] p-4 rounded-xl z-20 flex items-center justify-between shadow-lg">
                 <div>
                   <h3 className="font-display font-bold text-sm text-white">Desireé Jardim</h3>
-                  <p className="text-[11px] text-brand-gold uppercase tracking-wider font-sans font-medium">Estrategista de Redes Sociais</p>
+                  <p className="text-[11px] text-brand-gold uppercase tracking-wider font-sans font-medium">Social Media & Videomaker</p>
                 </div>
                 <div className="bg-brand-gold/10 px-2.5 py-1 rounded-md border border-brand-gold/20">
                   <span className="text-[10px] text-brand-gold font-sans font-semibold tracking-wider">✦ PREMIUM</span>

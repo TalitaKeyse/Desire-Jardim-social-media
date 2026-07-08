@@ -49,7 +49,7 @@ export default function Header() {
               DESIREÉ JARDIM
             </span>
             <span className="text-[9px] font-sans uppercase tracking-[0.25em] text-brand-gold font-medium mt-0.5">
-              Social Media Premium
+              Social Media & Videomaker Premium
             </span>
           </div>
 

@@ -1,5 +1,5 @@
 import React from "react";
-import { Compass, Sparkles, Palette, TrendingUp, CheckCircle, MessageCircle } from "lucide-react";
+import { Compass, Sparkles, Palette, TrendingUp, CheckCircle, MessageCircle, Video } from "lucide-react";
 import { SERVICES, WHATSAPP_LINK } from "../data";
 import { motion } from "motion/react";
 
@@ -8,6 +8,7 @@ const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Sparkles: Sparkles,
   Palette: Palette,
   TrendingUp: TrendingUp,
+  Video: Video,
 };
 
 export default function Services() {
