@@ -20,7 +20,7 @@ export default function Header() {
     if (element) {
       const headerOffset = 80;
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      const offsetPosition = elementPosition + window.scrollY - headerOffset;
       
       window.scrollTo({
         top: offsetPosition,
@@ -108,8 +108,10 @@ export default function Header() {
 
       {/* Mobile Drawer */}
       <div
-        className={`md:hidden fixed inset-0 top-[65px] bg-brand-dark/95 backdrop-blur-xl z-40 transition-transform duration-300 border-t border-white/[0.06] ${
-          isOpen ? "translate-x-0" : "translate-x-full"
+        className={`md:hidden fixed inset-0 top-[65px] bg-brand-dark/95 backdrop-blur-xl z-40 transition-all duration-300 border-t border-white/[0.06] ${
+          isOpen
+            ? "translate-x-0 opacity-100 pointer-events-auto visible"
+            : "translate-x-full opacity-0 pointer-events-none invisible"
         }`}
       >
         <div className="flex flex-col space-y-6 p-8 h-full">
